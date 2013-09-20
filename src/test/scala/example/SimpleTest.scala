@@ -5,7 +5,7 @@ import org.junit.Test
 import org.junit.Assert._
 import org.hamcrest.CoreMatchers._
 
-class SimpleTest extends ATrait {
+class SimpleTest extends ATrait with AnAbstractTrait {
 
 
   @Test
@@ -13,6 +13,7 @@ class SimpleTest extends ATrait {
     assertThat(false,is(false))
   }
 
+  val aString: String = "Simple String"
 }
 
 
