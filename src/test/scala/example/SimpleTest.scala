@@ -5,7 +5,7 @@ import org.junit.Test
 import org.junit.Assert._
 import org.hamcrest.CoreMatchers._
 
-class SimpleTest {
+class SimpleTest extends ATrait {
 
 
   @Test
